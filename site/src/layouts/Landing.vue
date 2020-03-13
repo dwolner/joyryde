@@ -49,14 +49,14 @@
 
                     <div class="full-width q-py-md">
                         <q-form @submit="onSubmit" @reset="onReset" class="row" invert>
-                            <q-input v-model="email" type="email" dark color="white" class="col-xs-12" dense inverted filled fill-mask lazy-rules label="Your email" />
+                            <q-input v-model="email" type="email" dark color="white" class="col-xs-12 moki-soft" dense inverted filled fill-mask lazy-rules label="Your email" />
 
-                            <q-btn label="Get notified" type="submit" class="full-width" style="background: #ee1d3c; color: #fff;" />
+                            <q-btn label="Get notified" type="submit" class="full-width moki-soft" style="background: #ee1d3c; color: #fff;" />
                         </q-form>
                     </div>
 
                     <div class="full-width q-py-md">
-                        <q-btn label="Pre Save Music" type="submit" class="full-width" style="background: #2cce5f; color: #fff;" @click="openPresave()" />
+                        <q-btn label="Pre Save Music" type="submit" class="full-width moki-soft" style="background: #2cce5f; color: #fff;" @click="openPresave()" />
                     </div>
                 </div>
             </q-page>
