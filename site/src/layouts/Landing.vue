@@ -47,16 +47,16 @@
                         <q-img src="statics/BRAVE_COVER.png"></q-img>
                     </div>
 
-                    <div class="full-width q-py-md">
-                        <q-form @submit="onSubmit" @reset="onReset" class="row" invert>
+                    <div class="full-width q-py-md" align="center">
+                        <q-form @submit="onSubmit" @reset="onReset" class="row" invert style="max-width: 400px;">
                             <q-input v-model="email" type="email" dark color="white" class="col-xs-12 moki-soft" dense inverted filled fill-mask lazy-rules label="Your email" />
 
                             <q-btn label="Get notified" type="submit" class="full-width moki-soft" style="background: #ee1d3c; color: #fff;" />
                         </q-form>
                     </div>
 
-                    <div class="full-width q-py-md">
-                        <q-btn label="Pre Save Music" type="submit" class="full-width moki-soft" style="background: #2cce5f; color: #fff;" @click="openPresave()" />
+                    <div class="full-width q-py-md" align="center" >
+                        <q-btn label="Presave" type="submit" class="full-width moki-soft" style="background: #2cce5f; color: #fff; max-width: 400px;" @click="openPresave()" />
                     </div>
                 </div>
             </q-page>
